@@ -1,5 +1,13 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5)
 project(iai_roller_description)
 
-find_package(catkin REQUIRED)
-catkin_package()
+find_package(ament_cmake REQUIRED)
+
+install(DIRECTORY meshes
+DESTINATION share/${PROJECT_NAME})
+
+install(DIRECTORY urdf
+  DESTINATION share/${PROJECT_NAME})
+
+ament_package()
+

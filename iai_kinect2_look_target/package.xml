@@ -42,9 +42,8 @@
   <buildtool_depend>catkin</buildtool_depend>
 
 
-  <!-- The export tag contains other, unspecified, tags -->
   <export>
-    <!-- Other tools can request additional information be placed here -->
-
+      <build_type>ament_cmake</build_type>
   </export>
+
 </package>

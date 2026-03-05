@@ -19,4 +19,8 @@
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>xacro</run_depend>
 
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+
 </package>
